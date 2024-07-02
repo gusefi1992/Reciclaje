@@ -12,7 +12,7 @@ Ecorecicla es una aplicación diseñada para fomentar la práctica del reciclaje
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/gusefi1992/appEco.git`
+1. Clona el repositorio: `git clone https://github.com/gusefi1992/Reciclaje.git`
 2. Abre el proyecto en Android Studio.
 3. Construye y ejecuta la aplicación en tu dispositivo o emulador Android.
 
