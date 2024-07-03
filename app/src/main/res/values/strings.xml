@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EcoRecicla</string>
+    <string-array name="documentos_identidad">
+        <item>Documento de Identidad</item>
+        <item>Cédula</item>
+        <item>Pasaporte</item>
+        <item>Otro</item>
+    </string-array>
 </resources>
