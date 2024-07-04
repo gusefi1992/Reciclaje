@@ -17,6 +17,16 @@
         android:textAlignment="center"
         android:backgroundTint="#009E0F" />
 
+    <Button
+        android:id="@+id/registrarme"
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Registrarme"
+        android:textAlignment="center"
+        android:backgroundTint="#009E0F" />
+
     <EditText
         android:id="@+id/EditTextCorreo"
         android:layout_width="316dp"
@@ -44,7 +54,7 @@
         android:layout_width="196dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="500dp"
         android:text="Guardar Contraseña"
         android:textAlignment="center" />
 
@@ -56,14 +66,5 @@
         android:layout_marginTop="650dp"
         android:text="Olvide Mi Contraseña"
         android:textColor="#009E0F" />
-
-    <TextView
-        android:id="@+id/registra"
-        android:layout_width="146dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="650dp"
-        android:text="Registrarme"
-        android:textColor="#274E13" />
 
 </RelativeLayout>
