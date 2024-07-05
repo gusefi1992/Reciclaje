@@ -11,16 +11,38 @@ Ecorecicla es una aplicación diseñada para fomentar la práctica del reciclaje
 
 
 ## Instalación
+1.Crear la carpeta EcoRecicla
+2.Entrar en ella
+3.Dar clic derecho y ir a Mostrar Mas Opciones.
+4.Abri Git Bash
+5.Escribir git init
+6.Si su rama local es diferente de main escriba el siguiente comando: git branch -m main
+5.Insertar el comando git clone https://github.com/gusefi1992/Reciclaje.git
+6.realice un pull al gitHub para comprobar que todo esta en orden, ejecute el siguiente comando: git pull origin main --allow-unrelated-histories
+7.Crear tu propia rama local: git checkout -b <tu nombre>
+## Crear tu rama en el repositorio en la web GITHUB
+8.git push origin <nombre de la rama>
+9.Si necesitas cambiar entre ramas utiliza git checkout <nombreRama>
 
-1. Clona el repositorio: `git clone https://github.com/gusefi1992/Reciclaje.git`
-2. Abre el proyecto en Android Studio.
-3. Construye y ejecuta la aplicación en tu dispositivo o emulador Android.
+##Guardar los cambios realizados en tu repositorio local git
+1.Estar seguro de estar en la rama que necesitas
+2.escribir git status
+3.visualizar los documentos afectados que estan en rojo
+4.cuando ya estes seguro agregar los cambios a tu repositorio con git add . //Esto agrega todos los archivos, por tanto puedes agregar de a uno con git add <nombreArchivo.txt>
+5.escribir git status y visualizar que todo lo que desea agregar esta en verde
+6.crear el commit con git commit -am"Este es el mensaje que describe el cambio"
+7.ir a la rama dev
+8.hacer un pull a la rama dev con el comando git pull origin dev
+9.luego si ubicarse en su rama personal y hacer un push con el comando git push origin <mi rama>
+10. Dar notificacion al grupo de wasap
+
 
 ## Créditos
 
 Desarrollado por [Guillermo Segura]
-Desarrollado por [Integrante 1]
-Desarrollado por [Integrante 2]
-Desarrollado por [Integrante 3]
-Desarrollado por [Integrante 4]
+Desarrollado por [Jonathan Camilo Duarte Gomez]
+Desarrollado por [Henry Castañeda]
+Desarrollado por [Hernando Stiven Cortes Lopez]
+Desarrollado por [Ivan Correa]
+Desarrollado por [Jhon Fabian Rodriguez]
 
